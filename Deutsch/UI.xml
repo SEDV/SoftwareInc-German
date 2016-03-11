@@ -1352,7 +1352,7 @@ Lass die Wörter nicht den Boden berühren</Item>
 		<Item Name="Look again">Erneut suchen</Item>
 		<Item Name="LookAgainPrompt">Möchtest Du wirklich nochmal suchen? Das kostet Dich {0}</Item>
 	</Alpha7.7>
-<Alpha8.1>
+	<Alpha8.1>
 		<Item Name="FeatureUnlockWarning">Diese Funktion wird freigeschaltet in {0}</Item>
 		<Item Name="FeatureDependencyWarning">Diese Funktion ist abhängig von {0}, Bitte erst diese Funktion auswählen</Item>
 		<Item Name="FeatureFromWarning">Diese Funktion wird ersetzt durch {0}</Item>
@@ -1413,5 +1413,33 @@ Lass die Wörter nicht den Boden berühren</Item>
 		<Item Name="NoResearch">Aktuell gibt es nichts zu erforschen</Item>
 		<Item Name="Own office">eigenes Büro</Item>
 	</Alpha8.2>
+	<Alpha8.3>
+		<Item Name="Own office">Eigenes Büro</Item>
+		<Item Name="CodeMiniGameEnd">Game Over!
+
+Click to continue</Item>
+		<Item Name="RoomAngleError2">Wandwinkel größer sein als {0} °</Item>
+		<Item Name="Hint">Hinweis</Item>
+		<Item Name="Hints">Hinweise</Item>
+		<Item Name="HintEmployeeAssign">You can assign employees to furniture by holding shift and selecting both the employee(s) and the furniture and then right clicking</Item>
+		<Item Name="HintStaffAssign">You can assign staff to rooms by holding shift and selecting both the staff member(s) and the room(s) and then right clicking</Item>
+		<Item Name="HintMultipleBuild">You can keep placing objects and rooms in build mode by holding shift, this also works when duplicating objects</Item>
+		<Item Name="HintQuickSelect">You can easily select multiple objects of a specific type by holding ctrl and the left mouse button while dragging the mouse</Item>
+		<Item Name="HintSelectFurnitureType">The select furniture type option is extremely versatile, you can use it to select all furniture in a room or the selected furniture type(s) in the selected room(s)</Item>
+		<Item Name="HintCopyColor">You can easily copy furniture color by setting the default style and then resetting style for selected furniture from the context menu</Item>
+		<Item Name="HintProductRelease">Keep an eye on upcoming and recently released products before releasing your own to avoid getting overshadowed</Item>
+		<Item Name="HintFurnitureCopyMultiple">You can copy multiple objects in an arrangement at a time by holding shift and selecting them before duplicating</Item>
+		<Item Name="HintEmployeeEducation">You can educate multiple employees at a time by having them all selected before you open the education window</Item>
+		<Item Name="HintEmployeeSelection">You can hold ctrl and click to select multiple employees or hold shift to select a range of employees, which also works for some other lists in the game</Item>
+		<Item Name="HintAutoScaleSegment">For some wall segments, you can hold ctrl to auto scale the segment to fit the wall you want to build it on</Item>
+	</Alpha8.3>
+	<Alpha8.4>
+		<Item Name="HintElevatorBeam">You can select elevators in build mode to show a guiding beam, which will help you align elevators on other floors</Item>
+		<Item Name="HRHireBudgetWarning">HR for team {0} does not have a budget big enough to hire more employees</Item>
+		<Item Name="PortNonOSError">This product is not operating system dependant</Item>
+		<Item Name="ResearchOwnedError">This has already been researched</Item>
+		<Item Name="SoftwareSoftwareDependencyWarning">This software depends on {1} to be developed. Please select a product of type {1} to continue</Item>
+		<Item Name="SoftwareFeatureError">You need at least one feature to begin development</Item>
+	</Alpha8.4>
 </UI>
 
