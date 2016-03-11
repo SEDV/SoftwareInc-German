@@ -301,7 +301,7 @@
 	</ServerWindow>
 	<HireWindows>
 		<Item Name="Begin looking">Suche starten</Item>
-		<Item Name="Remove 10">entferne 10</Item>
+		<Item Name="Remove 10">Entferne 10</Item>
 		<Item Name="Interview">Gespräch</Item>
 	</HireWindows>
 	<EducationWindow>
@@ -312,7 +312,6 @@
 	<DistributionWindow>
 		<Item Name="Make Deal">Angebot machen</Item>
 		<Item Name="Take offline">Vertriebskanal schließen</Item>
-		<Item Name="Re-open">wieder eröffnen</Item>
 		<Item Name="Popularity history">Beliebtheitshistorie</Item>
 		<Item Name="Your distribution channel">Dein Vertriebskanal</Item>
 		<Item Name="Cut">schnitt</Item>
@@ -354,7 +353,8 @@
 		<Item Name="Hire cleaning">Reinigungskraft einstellen</Item>
 		<Item Name="PerHour"> pro Stunde</Item>
 		<Item Name="PerMonth"> pro Monat</Item>
-		<Item Name="ITPayment">{0} bis zu {0} pro Reparatur</Item>
+		<Item Name="ITPayment">{0} bis zu 
+{0} pro Reparatur</Item>
 		<Item Name="SharesIn">Anteile am Unternehmen:</Item>
 	</StaffWindow>
 	<Newspaper>
@@ -449,7 +449,7 @@
 		<Item Name="Toggle Build Mode">Bau Modus umschalten</Item>
 	</OptionsWindow>
 	<AI>
-		<Item Name="Idle">untätig</Item>
+		<Item Name="Idle">Untätig</Item>
 		<Item Name="Looking for computer">Auf der Suche nach einem Computer</Item>
 		<Item Name="Going home">geht nach Hause</Item>
 		<Item Name="Working">arbeitet</Item>
@@ -521,15 +521,19 @@
 		<Item Name="CannotAfford">Du kannst dir das nicht leisten.</Item>
 		<Item Name="BusFullWarning">Die Busse füllen sich, baue ein Paar Parkplätze für deine Mitarbeiter.</Item>
 		<Item Name="Click and drag">Klicken und ziehen</Item>
-		<Item Name="RoomClosedOff">Es gibt keine Möglichkeit diesen Raum zu betreten. Baue Türen oder Aufzüge.</Item>
-		<Item Name="PublicToiletWarning">Deine Mitarbeiter werden keine öffentlichen Toiletten benutzen. Baue Toiletten in separaten Räumen.</Item>
-		<Item Name="RoomOvercrowdWarning">Es gibt zu viele Computer in diesen Raum. überfüllte Räume lenken deine Mitarbeiter ab.</Item>
-		<Item Name="RoomLighingWaning">Es ist nicht genug Licht hier. Baue mehr Fenster oder Lampen.</Item>
-		<Item Name="ComputerBrokeWarning">Ein Computer ist kaputt und benötigt den IT-Support.</Item>
+		<Item Name="RoomClosedOff">Es gibt keine Möglichkeit diesen Raum zu betreten. 
+Baue Türen oder Aufzüge.</Item>
+		<Item Name="PublicToiletWarning">Deine Mitarbeiter werden keine öffentlichen Toiletten benutzen. 
+Baue Toiletten in separaten Räumen.</Item>
+		<Item Name="RoomOvercrowdWarning">Es gibt zu viele Computer in diesen Raum. 
+Überfüllte Räume lenken deine Mitarbeiter ab.</Item>
+		<Item Name="RoomLighingWaning">Es ist nicht genug Licht hier. 
+Baue mehr Fenster oder Lampen.</Item>
 		<Item Name="FurnitureBrokeWarning">Deine Büroräume müssen instandgesetzt werden. Du benötigst einen Hausmeister.</Item>
 		<Item Name="UnsupportedStructure">Diese Struktur wird nicht unterstützt.</Item>
 		<Item Name="RoomOnRoad">Du kannst nicht auf der Straße bauen.</Item>
-		<Item Name="RoomInRoom">Du kannst nicht in anderen Räumen bauen. Wenn Du ein Raum teilen möchtest musst Du Wand an Wand bauen.</Item>
+		<Item Name="RoomInRoom">Du kannst nicht in anderen Räumen bauen. 
+Wenn Du ein Raum teilen möchtest musst Du Wand an Wand bauen.</Item>
 		<Item Name="RoomOutOfPlot">Du kannst nur innerhalb der Grundstücksgrenzen bauen.</Item>
 		<Item Name="RoomTooSmall">Deine Räume müssen mindestens 2x2 groß sein.</Item>
 		<Item Name="CannotReplaceDuplicateSegment">{0} kann nicht Durch {0} ersetzt werden.</Item>
@@ -786,17 +790,6 @@ Verlust: {5}</Item>
 		<Item Name="Brown water">braunes Wasser</Item>
 		<Item Name="Shiny">glänzend</Item>
 	</FurnitureQuality>
-	<Item Name="ContractDetails">Firma: {0}
-Typ: {1}
-Umfang: {2}
-Empfohlene Teamgröße: {10}
-Zeitlimit: {3} Monat(e)
-Artists: {9}
-Erforderliche Qualität: {4}
-Im Voraus: {5}
-Wenn fertig: {6}
-Strafe: -{7}
-Kosten pro Fehler: -{8}</Item>
 	<Item Name="WireModeLongHint">Linksklick auf einen Server, um diesen auszuwählen und klicke dann links auf einen anderen Server um diesen zu verbinden.
 
 Linksklick irgendwo oder Doppelklick, um dem Server trennen.
@@ -987,29 +980,11 @@ Lizenzkosten: {2}
 Empfohlene Teamgröße: {8}</Item>
 		<Item Name="Available contracts">Verfügbare Aufträge</Item>
 		<Item Name="Finished contracts">Fertige Aufträge</Item>
-		<Item Name="ContractResultBreakdown">Einnahmen: {0}
-Bonus für Annahme: {1}
-Strafe für Fehler (Bugs): {2}
-Strafe für Verspätung: {3}
-Strafe für schlechte Qualität: {4}
-Strafe für Abbruch: {5}
-Gewinn: {6}
-Abgeben {7}</Item>
 		<Item Name="ContractEarly">noch {0} Monat(e)</Item>
 		<Item Name="ContractLate">{0} Monat(e) überzogen</Item>
 		<Item Name="ContractOnTime">rechtzeitig</Item>
 		<Item Name="CloneToolTitle">Kopierwerkzeug</Item>
 		<Item Name="CloneToolDesc">Hiermit kannst Du ausgewählte Räume kopieren.</Item>
-		<Item Name="ContractDetailsNew">Firma: {0}
-Umfang: {1}
-empfohlene Team Größe: {9}
-Zeitlimit: {2} Monat(e)
-Artists: {8}
-Erforderliche Qualität: {3}
-Im Voraus: {4}
-Wenn fertig: {5}
-Strafe: -{6}
-Kosten pro Fehler(Bug): -{7}</Item>
 		<Item Name="ActionRoomUnpair">Raum abwählen</Item>
 		<Item Name="ActionRoomPair">Raum zuweisen</Item>
 		<Item Name="Hire IT-support">IT-Support einstellen</Item>
@@ -1086,7 +1061,7 @@ Bist Du sicher, dass Du fortfahren möchtest?</Item>
 		<Item Name="SupportWorkCancelWarning">Die Beendigung der Produktunterstützung wird unsere Kunden verärgern!
 Bist Du sicher, dass Du fortfahren möchtest?</Item>
 	</Alpha5.2>
-		<Alpha5.3>
+	<Alpha5.3>
 		<Item Name="AcceptAllWages">Alle akzeptieren und schließen</Item>
 		<Item Name="AcceptAllWagesWarning">Möchtest Du wirklich alle Forderungen annehmen?
 Der Durchschnittswert {0}, erhöht sich auf {1} pro Monat</Item>
@@ -1123,12 +1098,8 @@ Tut mir sehr Leid für die Unannehmlichkeiten.</Item>
 		<Item Name="Only sequels">nur Fortsetzungen</Item>
 		<Item Name="Select fallback">wähle Backup</Item>
 		<Item Name="Fallback">Backup</Item>
-		<Item Name="AutoDevProjDetails">Aktuelle Projektdetails:
-Name: {0}
-Art: {1}
-Umfang: {2}</Item>
 		<Item Name="Project">Projekt</Item>
-				<Item Name="NewWorkDealDetail">Art: {0}
+		<Item Name="NewWorkDealDetail">Art: {0}
 Software: {1}
 pro Tag: {2}
 Gültig bis: {3}</Item>
@@ -1206,7 +1177,8 @@ Rente pro Mitarbeiter: {2}</Item>
 		<Item Name="SaveDeletedError">Diese Sicherungsdatei existiert auf Deinem Computer nicht mehr und wird deshalb entfernt</Item>
 		<Item Name="ExteriorWallFurn">Du musst dies an einer Außenwand platzieren</Item>
 		<Item Name="BasementFurnError">Dieses Möbel kann nicht im Keller platziert werden</Item>
-		<Item Name="RoomTempratureWarning2">Die Temperaturschwankungen in diesem Raum sind sehr gross. Baue mehr Temperatur-Regelanlage ein und vergiss dabei schwach isolierten Fenster nicht.</Item>
+		<Item Name="RoomTempratureWarning2">Die Temperaturschwankungen in diesem Raum sind sehr gross. 
+Baue mehr Temperatur-Regelanlage ein und vergiss dabei schwach isolierten Fenster nicht.</Item>
 		<Item Name="TemperatureOveruse">Eine Temperatur-Regelanlage ist überlastet. Bitte füge weitere Regeleinheiten zu dem Gebäudekomplex hinzu.</Item>
 	</Alpha6.18>
 	<Alpha6.21>
