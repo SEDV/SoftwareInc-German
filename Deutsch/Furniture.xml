@@ -199,5 +199,13 @@
 		<Name>breites Fenster</Name>
 		<Description>Für das Breitbild-Erlebnis</Description>
 	</Segment>
+	<Segment Name="Arched gate">
+		<Name>Gewölbtes Tor</Name>
+		<Description></Description>
+	</Segment>
+	<Segment Name="Open gate">
+		<Name>Offenes Tor</Name>
+		<Description></Description>
+	</Segment>
 </Furniture>
 
