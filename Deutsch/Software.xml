@@ -601,7 +601,7 @@ Die meiste Software benötigt ein Betriebssystem für die Ausführung. Wenn die 
 		<Categories></Categories>
 	</Software>
 	<Feature Name="QA">
-		<Name>QS</Name>
+		<Name>QS </Name>
 		<Description>Verwenden Sie die Qualitätssicherung, um ein stabileres Produkt zu erhalten oder auftretende Fehler zu beheben</Description>
 	</Feature>
 </Software>
